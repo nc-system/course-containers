@@ -3,17 +3,13 @@
 
     - This are the most common command
 
-
 ### $ docker run
 
 ### $ docker pull
 
 ### $ docker images
 
-
-
-
-### docker run 
+### docker run
 
     - docker run is used to run and pull the images
 
@@ -29,7 +25,6 @@
 
             - Run container background
 
-
 ### docker pull
 
     - docker pull download the images
@@ -39,7 +34,6 @@
     Examples:
 
     $ docker pull ubuntu
-
 
 ### docker images
 
@@ -59,8 +53,6 @@
 
         $ docker images | head
 
-
-
 ### docker ps
 
     - docker ps show the images running
@@ -74,8 +66,6 @@
     $ docker ps -a
 
         - show the images that ran
-
-
 
 ### docker start
 
@@ -91,8 +81,7 @@
 
     $ docker start my-postgres
 
-
-### docker logs 
+### docker logs
 
     - docker logs show the logs of the image that is running
 
@@ -114,7 +103,6 @@
 
         - show the logs step by step
 
-
 ### docker exec
 
     - docker exec 
@@ -130,7 +118,6 @@
     $ docker exec -it f2a0f7a79bd sh
 
     $ docker exec -it my-postgres sh
-
 
 ### docker stop
 
@@ -151,6 +138,3 @@
     $ docker stop f2a0f7a79bd 64f7d5c22730
 
         - stop various containers at the time
-
-    
-
