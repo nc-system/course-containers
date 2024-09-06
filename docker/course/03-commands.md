@@ -13,6 +13,10 @@
 
     $ docker pull ubuntu
 
+    or
+
+    $ docker pull postgres:16.4-bullseye
+
 ## docker run
 
     - docker run is used to run and pull the images
@@ -23,7 +27,11 @@
 
         $ docker run my-postgres
 
+        or
+
         $ docker run -e POSTGRES_PASSWORD=123456 postgres
+
+        or
 
         $ docker run -d my-postgres
 
