@@ -1,15 +1,19 @@
 
-## MOST COMMON COMMANDS
+# MOST COMMON COMMANDS
 
     - This are the most common command
 
-### $ docker run
+## docker pull
 
-### $ docker pull
+    - docker pull download the images
 
-### $ docker images
+    $ docker pull
 
-### docker run
+    Examples:
+
+    $ docker pull ubuntu
+
+## docker run
 
     - docker run is used to run and pull the images
 
@@ -25,17 +29,7 @@
 
             - Run container background
 
-### docker pull
-
-    - docker pull download the images
-
-    $ docker pull
-
-    Examples:
-
-    $ docker pull ubuntu
-
-### docker images
+## docker images
 
     - docker images show the images downloads
 
@@ -53,7 +47,7 @@
 
         $ docker images | head
 
-### docker ps
+## docker ps
 
     - docker ps show the images running
 
@@ -67,7 +61,7 @@
 
         - show the images that ran
 
-### docker start
+## docker start
 
     - docker start - Start an image
 
@@ -81,7 +75,7 @@
 
     $ docker start my-postgres
 
-### docker logs
+## docker logs
 
     - docker logs show the logs of the image that is running
 
@@ -103,7 +97,7 @@
 
         - show the logs step by step
 
-### docker exec
+## docker exec
 
     - docker exec 
         - Execute a command inside a container that is already running
@@ -119,7 +113,7 @@
 
     $ docker exec -it my-postgres sh
 
-### docker stop
+## docker stop
 
     - docker stop
 
