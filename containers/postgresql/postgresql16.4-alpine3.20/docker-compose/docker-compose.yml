@@ -1,5 +1,5 @@
 # Use postgres/example user/password credentials
-version: '0.1'
+version: '3.9'
 
 services:
 
@@ -15,7 +15,8 @@ services:
     #    tmpfs:
     #      size: 134217728 # 128*2^20 bytes = 128Mb
     environment:
-      POSTGRES_PASSWORD: 12345678
+      POSTGRES_USER: newsoftcomputer
+      POSTGRES_PASSWORD: newsoftcomputer
 
   adminer:
     image: adminer
